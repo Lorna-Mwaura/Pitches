@@ -1,6 +1,6 @@
-from email.policy import default
+# from email.policy import default
 import os
-from decouple import config
+# from decouple import config
 
 
 class Config:
@@ -19,19 +19,7 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
 class ProdConfig(Config):
-    pass
-
-
-class DevConfig(Config):
     DEBUG = True
-
-config_options = {
-'development':DevConfig,
-'production':ProdConfig
-}
-
-class ProdConfig(Config):
-    pass
 
 
 class DevConfig(Config):
