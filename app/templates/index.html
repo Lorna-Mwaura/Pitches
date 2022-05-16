@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="text-center">
+    <h3 class="my-5">Pitches</h3>
+</div>
+
+<div class="row" style="height:400px">
+    <div class="col-4 my-5 container">
+        <div class="card" style="width: 25rem;">
+            <div class="card-body">
+                <h3 class="card-title">Business Pitches</h3>
+                <p class="card-text">Get your latest Business Pitches here!!!</p>
+                <p class="card-text">Read,Comment and Vote</p>
+                <a href="{{ url_for('main.business_pitches') }}" class="btn btn-primary -center">Read</a>
+            </div> 
+    </div>
+    </div>
+    <div class="col-4 my-5 container">
+        <div class="card" style="width: 25rem;">
+                        <h3 class="card-title">Product Pitches</h3>
+                        <p class="card-text">Get your latest Product Pitches here!!!</p> 
+                        <p class="card-text">Read,Comment and Vote</p>
+                        <a href="{{ url_for('main.product_pitches')}}" class="btn btn-primary -center">Read</a>
+                    </div>
+                   
+                </div>
+
+    <div class="col-3 my-5 container">
+        <div class="card" style="width: 25rem;">
+            <h3 class="card-title">Pickup-lines Pitches</h3>
+            <p class="card-title">Get your latest Pickup-lines Pitches here!!!</p>
+            <p class="card-text">Read,Comment and Vote</p>
+            <a href="{{ url_for('main.pickup_pitches') }}" class="btn btn-primary -center">Read</a>
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}
+
+
+
