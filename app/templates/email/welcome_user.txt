@@ -1,0 +1,8 @@
+Hello {{user.username}}
+Thanks for registering at Pitches.
+Your registration is complete.
+Your user email is : {{user.email}}
+Your user name is : {{user.username}}
+
+Happy querying!
+Best regards,
