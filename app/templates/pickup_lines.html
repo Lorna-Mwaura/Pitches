@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="text-center">
+    <h1 class="my-5">Pickup-lines</h1>
+</div>
+
+<div class="row"  style="height:400px">
+    <div class="col-3 my-5 container">
+        <div class="card" style="width: 15rem;">
+            <div class="card-body">
+                <h3 class="card-title">My Pitch</h3>
+                <p class="card-text">This is one of my favourite pitch</p>
+                <a href="" class="btn btn-primary -center">Comment</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 my-5 container">
+        <div class="card" style="width: 15rem;">
+            <div class="card-body">
+                <h3 class="card-title">Roses are red</h3>
+                <p class="card-text">This is one of my favourite pitch</p>
+                <a href="" class="btn btn-primary -center">Comment</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 my-5 container">
+        <div class="card" style="width: 15rem;">
+            <div class="card-body">
+                <h3 class="card-title">My Prayer</h3>
+                <p class="card-text">This is one of my favourite pitch</p>
+                <a href="" class="btn btn-primary -center">Comment</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 my-5 container">
+        {% include "new_pitch.html" %}
+    </div>
+
+    {% endblock %}
