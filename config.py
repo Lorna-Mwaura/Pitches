@@ -7,7 +7,7 @@ class Config:
 
     SECRET_KEY = '123Qwe'
     # SQLALCHEMY_DATABASE_URI = 'sqlite:////home/lona/Desktop/Pitches/pitches.db'
-    SQLALCHEMY_DATABASE_URI = 'postgres://wlgqwfxagylxki:6a72382d05483c9fd71ab436bc5f83cba640191b59358ced9d608dd24b2cf8c3@ec2-3-229-11-55.compute-1.amazonaws.com:5432/d63mrtoduck209'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://wlgqwfxagylxki:6a72382d05483c9fd71ab436bc5f83cba640191b59358ced9d608dd24b2cf8c3@ec2-3-229-11-55.compute-1.amazonaws.com:5432/d63mrtoduck209'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOADED_PHOTOS_DEST ='app/static/photos'
 
